@@ -1,8 +1,8 @@
 import React from 'react';
-
+import PokemonList from './PokemonList/PokemonList';
 class App extends React.Component {
     render() {
-        return <div>Hello</div>;
+        return <PokemonList />;
     }
 }
 
